@@ -1,8 +1,8 @@
 class FuxxCompletes < Formula
   desc "Ghost-text suggestions for zsh and bash from your own history"
   homepage "https://github.com/fuxx-dev/fuxx-completes"
-  url "https://github.com/fuxx-dev/fuxx-completes/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "abcbd3c3111eca9d8031b2094cb3c01f6d9cdf2b1862adf0bff81a90277c8dad"
+  url "https://github.com/fuxx-dev/fuxx-completes/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "3f075cf0097891a736d179fee22a162b659de486a7bc67f89d3e9c768bc17eab"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
@@ -11,12 +11,12 @@ class FuxxCompletes < Formula
   # fuxx installs); the adapters come from the tagged source above.
   resource "binary" do
     on_arm do
-      url "https://github.com/fuxx-dev/fuxx-completes/releases/download/v0.1.0/fuxx-plugin-macos-arm64.zip"
-      sha256 "95e831b852072cec58fdb998caf0d06050863fd540685de8b061a2cde3f4dec9"
+      url "https://github.com/fuxx-dev/fuxx-completes/releases/download/v0.1.1/fuxx-plugin-macos-arm64.zip"
+      sha256 "66eddb48f45f0d7f3fe152dcd4755ae6cf87451be11967babadf4c44b8b696be"
     end
     on_intel do
-      url "https://github.com/fuxx-dev/fuxx-completes/releases/download/v0.1.0/fuxx-plugin-macos-x86_64.zip"
-      sha256 "aab9b654ea9a63a6c09ff1fb6f5077218a0711d647387a03fa8c09e300cd1401"
+      url "https://github.com/fuxx-dev/fuxx-completes/releases/download/v0.1.1/fuxx-plugin-macos-x86_64.zip"
+      sha256 "a6f7f3819ea023af0645168fa145dde509b700ff4717e0bb9bf8e5c9ce5e2ab0"
     end
   end
 
